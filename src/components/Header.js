@@ -1,7 +1,7 @@
+import React from 'react';
 import { Link } from 'gatsby';
 const Header = () => {
     return (
-        <Layout>
             <nav>
                 <ul>
                     <li><Link to='/'>Home</Link></li>
@@ -11,7 +11,6 @@ const Header = () => {
                     <li><Link to='/tags'>Tags</Link></li>
                 </ul>
             </nav>
-        </Layout>
     )
 }
 
