@@ -1,10 +1,13 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-const Layout = () => {
+import 'normalize.css';
+import '../assets/css/main.css';
+const Layout = ({children}) => {
     return (
         <>
-        <Header />
+            <Header />
+            {children}
         <Footer />
         </>
     )
