@@ -9,7 +9,8 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="simply recipes" />
+            {/* <img src={logo} alt="simply recipes" /> */}
+            <h1>Recipies Arena</h1>
           </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
             <FiAlignJustify />
